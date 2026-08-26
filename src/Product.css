@@ -1,7 +1,7 @@
 .product{
     background-color:rgb(116, 116, 227);
     border-radius:25px;
-    border-style:2px solid rgb(167, 153, 75);
+    border:5px solid rgb(167, 153, 75);
     margin: 10px 5px 10px 5px;
     padding:20px;
 }

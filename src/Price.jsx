@@ -1,8 +1,8 @@
 function Price({price}){
     return(
-        <>
-        <h5>{price}</h5>
-        </>
+        <div className="price">
+            <h5>${price}</h5>
+        </div>
     )
 }
 export default Price;
