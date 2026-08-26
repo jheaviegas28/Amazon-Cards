@@ -1,7 +1,7 @@
 function Price({price}){
     return(
         <>
-        <h5>{Price}</h5>
+        <h5>{price}</h5>
         </>
     )
 }
