@@ -1,3 +1,4 @@
+import "./Price.css"
 function Price({price}){
     return(
         <div className="price">
