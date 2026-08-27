@@ -1,11 +1,11 @@
 import "./Price.css"
 function Price({oldprice,newprice}){
     return(
-        <>
-        <span>{newprice}</span>
+        <div className="price">
+        <span style={{textDecoration:"line-through"}}>{oldprice}</span>
         &nbsp;&nbsp;&nbsp;
-        <span>{oldprice}</span>
-        </>
+        <span style={{fontWeight:"bold"}}>{newprice}</span>
+        </div>
     )
 }
 export default Price;
