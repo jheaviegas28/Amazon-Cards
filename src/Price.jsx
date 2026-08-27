@@ -1,7 +1,9 @@
-function Price({price}){
+function Price({oldprice,newprice}){
     return(
         <>
-        <h5>{price}</h5>
+        <span>{newprice}</span>
+        &nbsp;&nbsp;&nbsp;
+        <span>{oldprice}</span>
         </>
     )
 }
